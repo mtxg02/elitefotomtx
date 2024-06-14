@@ -1,0 +1,54 @@
+<div id="fundo_contact">
+    <h1>CONTACT</h1>
+        <div id="form">
+            <div>
+                <label>
+                    First Name
+                    <input type="text">
+                </label>
+                <label>
+                    Last Name
+                    <input type="text">
+                 </label>
+            </div>
+            <label>
+                Email
+                <input type="email">
+            </label>
+            <label>
+                Subject
+                <input type="text">
+            </label>
+            <label>
+                Message
+                <textarea placeholder="Write your notes or questions here..."></textarea>
+            </label>
+        </div>
+</div>
+
+
+CSS
+
+#form label{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    color: white;
+}
+
+#form>div{
+    display: flex;
+    gap: 3px;
+}
+
+#form{
+    display: flex;
+    flex-direction: column;
+}
+
+input{
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    background-color: #1a1a1a;
+}
